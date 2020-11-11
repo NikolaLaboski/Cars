@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+section{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #111;
+    transition: 0.5s;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+section video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo{
+    cursor: pointer;
+    color: tomato;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+span{
+    color: tomato;
+}
+
+.content{
+    position: relative;
+    font-size: 2em;
+    color: white;
+}
+
+.toggle{
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #33cc33, #00f );
+    mix-blend-mode: overlay;
+}
+
+.content a{
+    display: inline-block;
+    font-size: 1.1em;
+    background: tomato;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.soc{
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc li{
+    list-style: none;
+}
+
+.soc li a{
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(1);
+    transform: scale(0.5s);
+
+}
+
+.fa {
+    margin: 15px;
+    
+  }
+
